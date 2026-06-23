@@ -1,0 +1,90 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment and dependency files
+.env
+*.env
+.venv/
+venv/
+env/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset files
+# *.csv
+*.tsv
+*.data
+*.json
+*.zip
+*.gz
+*.tar
+*.bz2
+*.hdf5
+
+# Model files and checkpoints
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+model_weights/
+models/
+
+# Logs and outputs
+logs/
+*.log
+*.out
+*.txt
+*.pkl
+*.joblib
+
+# TensorBoard logs
+runs/
+events.out.tfevents.*
+
+# Cache files and directories
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.cache/
+*.mypy_cache/
+*.pytest_cache/
+.cache/
+*.parquet
+*.feather
+*.orc
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Docke
+
+02-carprice.ipynb
+archive (1).zip
+bin
+chapter-02-car-price
+Dataset Glossary.txt
+etc
+floors_output.csv
+House_Rent_Dataset.csv
+lesson2.2.ipynb
+lesson_2.2.py
+lib
+lib64
+output.csv
+pyvenv.cfg
+rent-price-prediction.ipynb
+share
+svm_example.py
